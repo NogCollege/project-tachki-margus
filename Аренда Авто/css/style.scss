@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5F5F5;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-page {
+    position: relative;
+    background: #181818;
+    height: 124px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.wrapper-header {
+    width: 1800px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-item {
+    color: #FFF;
+    font-size: 32px;
+}
+
+.catalog {
+    width: 527px;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item {
+    font-size: 15px;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.contact {
+    // width: 492px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block-contItem {
+    width: 49px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block-contLink {
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-phone {
+    font-size: 18px;
+    color: #FFF;
+    line-height: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+    margin-left: 60px;
+}
+
+.btn-header {
+    border: 2px solid #3C3C3C;
+    border-radius: 8px;
+    background: none;
+    width: 149px;
+    height: 44px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+
+.main-page {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-main {
+    margin: 0 auto;
+    width: 1860px;
+    height: 1100px;
+    border-end-end-radius: 36px;
+    background-image: url(../img/fon1.png);
+    // background-size: auto 996px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.title-main {
+    font-size: 89px;
+    font-weight: bold;
+    line-height: 95px;
+    text-align: center;
+    color: #FFF;
+    margin-top: 170px;
+}
+
+.subtitle-main {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #FFF;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+.hr-main {
+    margin: 0 auto;
+    width: 1320px;
+    height: 2px;
+    background: rgba(255, 255, 255, 20%);
+}
+
+.menu-listMain {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 156px;
+
+    li {
+        display: flex;
+    }
+}
+
+.number-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 17px;
+    width: 26px;
+    height: 26px;
+    background: #FFF;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 10px;
+}
+
+.text-listMain {
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.aplication-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1320px;
+    height:271px;
+    margin: 0 auto;
+    background: #FFF;
+    border-radius: 20px;
+    padding: 60px 70px 70px 70px;
+}
+
+.title-aplication {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 29px;
+}
+
+.submenu-aplication {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-block {
+    width: 504px;
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-input {
+    width: 242px;
+    height: 76px;
+    background: #F5F5F5;
+    // color: #A4A4A4;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    border: 0;
+    border-radius: 10px;
+    padding: 28px 30px 28px 60px;
+}
+
+.date-input:focus {
+    outline: none;
+}
+
+.date-img {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.date-img2 {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 290px;
+}
+
+.elemants-aplication {
+    display: grid;
+    column-gap: 26px;
+    row-gap: 14px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: repeat(2, 1fr);
+
+    div {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.element-chexbox {
+    margin-right: 14px;
+    width: 20px;
+    height: 20px;
+}
+
+.btn-aplication {
+    width: 201px;
+    height: 76px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+    background: var(--main, linear-gradient(67deg, #9F7437 9.19%, #E3D293 92.03%));
+}
+
+.product-page {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
