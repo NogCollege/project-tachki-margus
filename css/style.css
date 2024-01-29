@@ -104,11 +104,6 @@ button {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-}
-
-.wrapper-main {
-  margin: 0 auto;
-  width: 1860px;
   height: 1100px;
   border-end-end-radius: 36px;
   background-image: url(../img/fon1.png);
@@ -479,15 +474,16 @@ button {
 }
 
 .reservation-page {
-  width: 1860px;
-  height: 764px;
+  position: relative;
   margin: 0 auto;
   display: flex;
+  justify-content: center;
   align-items: center;
+  height: 764px;
+  border-end-end-radius: 36px;
   background-image: url(../img/fon2.png);
+  background-position: top;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .wrapper-reservation {
@@ -708,15 +704,14 @@ button {
 }
 
 .promotions-page {
-  width: 1860px;
+  position: relative;
   height: 820px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   background-image: url(../img/fon3.png);
+  background-position: top;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .wrapper-promotions {
@@ -856,4 +851,441 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.wrapper-services_reasons {
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  width: 1320px;
+  height: 1530px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ourServices-page {
+  width: 100%;
+  height: 760px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title-services {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 62px;
+}
+
+.items-services {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-services {
+  width: 424px;
+  height: 638px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.infIcon-services {
+  width: 364px;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-services {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 28px;
+}
+
+.arrowLink-services {
+  width: 54px;
+  height: 54px;
+  border: 2px solid rgba(0, 0, 0, 0.06);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reasonsOrder-page {
+  width: 1131px;
+  height: 650px;
+}
+
+.title-reasonsOrder {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 62px;
+}
+
+.reasons-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reasons-items {
+  height: 456px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item-reasons {
+  width: 459px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar-reasons {
+  width: 112px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 20px;
+}
+
+.aside-reasons {
+  width: 307px;
+  height: 95px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title-reasons {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 28px;
+}
+
+.subtitle-reasons {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #989898;
+}
+
+.rental_infomation-page {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  height: 1460px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(../img/fon4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wrapper-rental_information {
+  margin: 0 auto;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.different_budget {
+  display: flex;
+  justify-content: space-between;
+}
+
+.different_budget {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-different_budget {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title-different_budget {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 62px;
+  color: white;
+}
+
+.subblock-different_budget {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.subtitle-defferent_budget {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 38px;
+  color: white;
+}
+
+.comment-defferent_budget {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #9F9F9F;
+}
+
+.rental_in_Moscow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-rental_in_Moscow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title-rental_in_Moscow {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 62px;
+  color: white;
+}
+
+.subtitle-rental_in_Moscow {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #9F9F9F;
+}
+
+.hr-rental_in_Moscow {
+  height: 1px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.information-rental_in_Moscow {
+  display: flex;
+  justify-content: space-between;
+  width: 748px;
+}
+
+.item-rental_in_Moscow {
+  display: flex;
+}
+
+.text-rental_in_Moscow {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 24px;
+  color: white;
+  margin-left: 18px;
+  margin-top: -7px;
+}
+
+.footer-rental {
+  margin: 0 auto;
+  background: white;
+  width: 1855px;
+  height: 280px;
+  border-radius: 0px 0px 36px 36px;
+}
+
+.wrapper-footer_rental {
+  display: grid;
+  align-items: center;
+  margin: 0 auto;
+  height: 100%;
+  width: 70%;
+}
+
+.items-footer_rental {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper-questions {
+  margin: 0 auto;
+  margin-top: 120px;
+  width: 58%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-questions {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 62px;
+}
+
+.subblock-questions {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  display: grid;
+  gap: 30px;
+}
+
+.text-questions {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #9F9F9F;
+}
+
+.number-questions {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.form-questions {
+  display: grid;
+  gap: 40px;
+}
+
+.inp-questions {
+  width: 448px;
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.inp-questions input {
+  height: 76px;
+  padding: 28px 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.btn-questions {
+  height: 76px;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  border-radius: 10px;
+  background: #1F1F1F;
+  color: white;
+}
+
+.agreement-questions {
+  display: flex;
+  gap: 14px;
+}
+
+.checkbox-questions {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.text-agreement_questions {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #9e9e9e;
+}
+
+.footer-page {
+  position: relative;
+  height: 534p;
+  margin: 0 auto;
+  background-image: url(../img/fon5.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.wrapper-footer {
+  position: relative;
+  padding: 100px 270px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: auto;
+}
+
+.link-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.titleLink-footer {
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.schedule_btn-footer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.schedule-footer {
+  display: grid;
+  gap: 10px;
+}
+
+.phone-footer {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  color: white;
+}
+
+.hoursWork-footer {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  color: #AFAFAF;
+}
+
+.btn-footer {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 20px;
+  background: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 12px 20px;
+}
+
+.adress_mail-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  margin: 36px 0;
+}
+
+.adress-footer {
+  text-align: center;
+  width: 100%;
+  float: right;
+}
+
+.mail-footer {
+  float: right;
+}
+
+.iconsLink-footer {
+  width: 53px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  float: right;
 }/*# sourceMappingURL=style.css.map */
