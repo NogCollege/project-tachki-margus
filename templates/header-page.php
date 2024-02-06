@@ -13,8 +13,8 @@
                 </li>
                 <li class="contact">
                     <div class="block-contItem">
-                        <a href="#" class="contact-item"><img src="img/whatsapp.png" alt=""></a>
-                        <a href="#" class="contact-item"><img src="img/telegram.png" alt=""></a>
+                        <a href="#" class="contact-item"><img src="templates/img/whatsapp.png" alt=""></a>
+                        <a href="#" class="contact-item"><img src="templates/img/telegram.png" alt=""></a>
                     </div>
                     <div class="block-contLink">
                         <p class="contact-phone">+7 (499) 110-20-47</p>
@@ -25,10 +25,10 @@
                 </li>
                 <li class="item-link">
                     <div class="item-linkformMini">
-                        <a href="#"><img class="itemLink-img" src="img/avto-item.png" alt=""><img class="display_none" src="img/avto-itemMini.png" alt=""></a>
-                        <a href="#"><img class="itemLink-img" src="img/contact-item.png" alt=""><img class="display_none" src="img/contact-itemMIni.png" alt=""></a>
+                        <a href="#"><img class="itemLink-img" src="templates/img/avto-item.png" alt=""><img class="display_none" src="templates/img/avto-itemMini.png" alt=""></a>
+                        <a href="#"><img class="itemLink-img" src="templates/img/contact-item.png" alt=""><img class="display_none" src="templates/img/contact-itemMIni.png" alt=""></a>
                     </div>
-                    <a class="display_none icon-menu" href="#"><img src="img/icon-menu.png" alt=""></a>
+                    <a class="display_none icon-menu" href="#"><img src="templates/img/icon-menu.png" alt=""></a>
                 </li>
 
             </ul>

@@ -3,7 +3,7 @@
             <div class="different_budget">
                 <div class="text-different_budget">
                     <h1 class="title-different_budget">Car hire in Dubai for<br> different budget</h1>
-                    <!-- <div class="img-different_budget"><img src="img/item-rental1.png" alt=""></div> -->
+                    <!-- <div class="img-different_budget"><img src="templates/img/item-rental1.png" alt=""></div> -->
                     <div class="subblock-different_budget">
                         <h2 class="subtitle-defferent_budget">
                             We guarantee that you get technically sound,<br> clean car with a full tank, comfortable interior.<br> Our staff will independently pick up the car at<br> the expiration of the rental term at the specified<br> location.
@@ -14,12 +14,12 @@
                     </div>
                 </div>
                 <div class="icon-different_budget">
-                    <img src="img/item-rental1.png" alt="">
+                    <img src="templates/img/item-rental1.png" alt="">
                 </div>
             </div>
             <div class="rental_in_Moscow">
                 <div class="icon-rental_in_Moscow">
-                    <img src="img/item-rental2.png" alt="">
+                    <img src="templates/img/item-rental2.png" alt="">
                 </div>
                 <div class="text-rental_in_Moscow">
                     <h1 class="title-rental_in_Moscow">Аренда машин<br> в Москве</h1>
@@ -27,15 +27,15 @@
                     <div class="hr-rental_in_Moscow"></div>
                     <div class="information-rental_in_Moscow">
                         <div class="item-rental_in_Moscow">
-                            <div class="numberItem-rental_in_Moscow"><img src="img/item-rental_in_Moscow1.png" alt=""></div>
+                            <div class="numberItem-rental_in_Moscow"><img src="templates/img/item-rental_in_Moscow1.png" alt=""></div>
                             <p class="text-rental_in_Moscow">Более 8 лет на рынке <br>проката авто</p>
                         </div>
                         <div class="item-rental_in_Moscow">
-                            <div class="numberItem-rental_in_Moscow"><img src="img/item-rental_in_Moscow2.png" alt=""></div>
+                            <div class="numberItem-rental_in_Moscow"><img src="templates/img/item-rental_in_Moscow2.png" alt=""></div>
                             <p class="text-rental_in_Moscow">>24 премиальных и <br>эксклюзивных моделей</p>
                         </div>
                         <div class="item-rental_in_Moscow">
-                            <div class="numberItem-rental_in_Moscow"><img src="img/item-rental_in_Moscow3.png" alt=""></div>
+                            <div class="numberItem-rental_in_Moscow"><img src="templates/img/item-rental_in_Moscow3.png" alt=""></div>
                             <p class="text-rental_in_Moscow">Автопарк стоимостью<br> более 250 млн. рублей</p>
                         </div>
                     </div>

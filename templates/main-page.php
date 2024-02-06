@@ -35,9 +35,9 @@
                 <div class="title-aplication">Заказать аренду online</div>
                 <div class="submenu-aplication">
                     <div class="date-block">
-                        <img class="date-img" src="img/date.png" alt=""><input placeholder="Начало аренды"
+                        <img class="date-img" src="templates/img/date.png" alt=""><input placeholder="Начало аренды"
                             class="date-input">
-                        <img class="date-img2" src="img/date.png" alt=""><input placeholder="Завершение аренды"
+                        <img class="date-img2" src="templates/img/date.png" alt=""><input placeholder="Завершение аренды"
                             class="date-input">
                     </div>
                     <div class="elemants-aplication">

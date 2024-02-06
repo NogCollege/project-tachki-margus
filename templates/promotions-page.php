@@ -15,8 +15,8 @@
                 <div class="items-promotions">
                     <div class="item-promotions">
                         <div class="img-promotions">
-                            <div class="logoAvto-promotions"><img src="img/promotions-avto.png" alt=""></div>
-                            <div class="iconeAvto-promotions"><img src="img/charge.png" alt=""></div>
+                            <div class="logoAvto-promotions"><img src="templates/img/promotions-avto.png" alt=""></div>
+                            <div class="iconeAvto-promotions"><img src="templates/img/charge.png" alt=""></div>
                         </div>
                         <div class="textInf-promotions">
                             <h3 class="titleItem-promotions">Скидки постоянным клиентам</h3>
@@ -26,8 +26,8 @@
                 </div>
                 <div class="switching-itemsPromotions">
                     <div class="buttons-promotions">
-                        <a href="#" class="prev-switch switch-promotions"><img src="img/prev-switch.png" alt=""></a>
-                        <a href="#" class="next-switch switch-promotions"><img src="img/next-switch.png" alt=""></a>
+                        <a href="#" class="prev-switch switch-promotions"><img src="templates/img/prev-switch.png" alt=""></a>
+                        <a href="#" class="next-switch switch-promotions"><img src="templates/img/next-switch.png" alt=""></a>
                     </div>
                     <div class="numberSlide-promotions">
                         <span class="span-numberSlide">1</span>

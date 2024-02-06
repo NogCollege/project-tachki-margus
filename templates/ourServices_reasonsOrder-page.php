@@ -4,24 +4,24 @@
                 <h1 class="title-services">Наши услуги</h1>
                 <div class="items-services">
                     <div class="item-services">
-                        <div class="icon-services"><img src="img/item-service1.png" alt=""></div>
+                        <div class="icon-services"><img src="templates/img/item-service1.png" alt=""></div>
                         <div class="infIcon-services">
                             <p class="text-services">Доставляем авто в любую<br> точку Москвы</p>
-                            <a href="#" class="arrowLink-services"><img src="img/arrow-advSlide.png" alt="" class="img-arrowLink_Services"></a>
+                            <a href="#" class="arrowLink-services"><img src="templates/img/arrow-advSlide.png" alt="" class="img-arrowLink_Services"></a>
                         </div>
                     </div>
                     <div class="item-services">
-                        <div class="icon-services"><img src="img/item-service2.png" alt=""></div>
+                        <div class="icon-services"><img src="templates/img/item-service2.png" alt=""></div>
                         <div class="infIcon-services">
                             <p class="text-services">Аренда авто с личным<br> водителем</p>
-                            <a href="#" class="arrowLink-services"><img src="img/arrow-advSlide.png" alt="" class="img-arrowLink_Services"></a>
+                            <a href="#" class="arrowLink-services"><img src="templates/img/arrow-advSlide.png" alt="" class="img-arrowLink_Services"></a>
                         </div>
                     </div>
                     <div class="item-services">
-                        <div class="icon-services"><img src="img/item-service3.png" alt=""></div>
+                        <div class="icon-services"><img src="templates/img/item-service3.png" alt=""></div>
                         <div class="infIcon-services">
                             <p class="text-services">Водитель<br> на подмену</p>
-                            <a href="#" class="arrowLink-services"><img src="img/arrow-advSlide.png" alt="" class="img-arrowLink_Services"></a>
+                            <a href="#" class="arrowLink-services"><img src="templates/img/arrow-advSlide.png" alt="" class="img-arrowLink_Services"></a>
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                     <div class="reasons-items">
                         <div class="item-reasons">
                             <div class="sidebar-reasons">
-                                <img src="img/insurance.png" alt="" class="icon-reasons">
+                                <img src="templates/img/insurance.png" alt="" class="icon-reasons">
                             </div>
                             <div class="aside-reasons">
                                 <h3 class="title-reasons">Страховка</h3>
@@ -41,7 +41,7 @@
                         </div>
                         <div class="item-reasons">
                             <div class="sidebar-reasons">
-                                <img src="img/price-policy.png" alt="" class="icon-reasons">
+                                <img src="templates/img/price-policy.png" alt="" class="icon-reasons">
                             </div>
                             <div class="aside-reasons">
                                 <h3 class="title-reasons">Ценовая политика</h3>
@@ -50,7 +50,7 @@
                         </div>
                         <div class="item-reasons">
                             <div class="sidebar-reasons">
-                                <img src="img/car-park.png" alt="" class="icon-reasons">
+                                <img src="templates/img/car-park.png" alt="" class="icon-reasons">
                             </div>
                             <div class="aside-reasons">
                                 <h3 class="title-reasons">Автопарк</h3>
@@ -61,7 +61,7 @@
                     <div class="reasons-items">
                         <div class="item-reasons">
                             <div class="sidebar-reasons">
-                                <img src="img/price-policy.png" alt="" class="icon-reasons">
+                                <img src="templates/img/price-policy.png" alt="" class="icon-reasons">
                             </div>
                             <div class="aside-reasons">
                                 <h3 class="title-reasons">Ценовая политика</h3>
@@ -70,7 +70,7 @@
                         </div>
                         <div class="item-reasons">
                             <div class="sidebar-reasons">
-                                <img src="img/payment.png" alt="" class="icon-reasons">
+                                <img src="templates/img/payment.png" alt="" class="icon-reasons">
                             </div>
                             <div class="aside-reasons">
                                 <h3 class="title-reasons">Оплата</h3>
@@ -79,7 +79,7 @@
                         </div>
                         <div class="item-reasons">
                             <div class="sidebar-reasons">
-                                <img src="img/speed.png" alt="" class="icon-reasons">
+                                <img src="templates/img/speed.png" alt="" class="icon-reasons">
                             </div>
                             <div class="aside-reasons">
                                 <h3 class="title-reasons">Скорость</h3>

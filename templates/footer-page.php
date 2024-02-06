@@ -13,12 +13,12 @@
                         </form>
                     </div>
                     <div class="adress_mail-footer">
-                        <div><a href="#" class="adress-footer"><img src="img/location.png" alt="">г. Ногинск, ул. Ремесленная, д. 1178А</a></div>
-                        <div><a href="#" class="mail-footer"><img src="img/mail.png" alt="">info@арендатачек.рф</a></div>
+                        <div><a href="#" class="adress-footer"><img src="templates/img/location.png" alt="">г. Ногинск, ул. Ремесленная, д. 1178А</a></div>
+                        <div><a href="#" class="mail-footer"><img src="templates/img/mail.png" alt="">info@арендатачек.рф</a></div>
                     </div>
                     <div class="iconsLink-footer">
-                        <a href="#"><img src="img/whatsapp-footer.png" alt=""></a>
-                        <a href="#"><img src="img/telegram-footer.png" alt=""></a>
+                        <a href="#"><img src="templates/img/whatsapp-footer.png" alt=""></a>
+                        <a href="#"><img src="templates/img/telegram-footer.png" alt=""></a>
                     </div>
                 </div>
             </div>

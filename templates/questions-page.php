@@ -1,6 +1,6 @@
 <div class="questions-page">
     <div class="wrapper-questions">
-        <div class="sidebar-questions"><img src="img/item-questions.png" alt=""></div>
+        <div class="sidebar-questions"><img src="templates/img/item-questions.png" alt=""></div>
         <div class="aside-questions">
             <h1 class="title-questions">Остались вопросы?</h1>
             <div class="subblock-questions">
