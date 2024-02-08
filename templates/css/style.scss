@@ -1,3 +1,98 @@
+@font-face {
+	font-family: 'PPPangramSans-Bold'; 
+	src: url(../font/PPPangramSans-Bold.woff); 
+}
+
+@font-face {
+	font-family: 'PPPangramSans-CompactExtralightReclined'; 
+	src: url(../font/PPPangramSans-CompactExtralightReclined.woff); 
+}
+
+@font-face {
+	font-family: 'PPPangramSans-CompactRegular'; 
+	src: url(../font/PPPangramSans-CompactRegular.woff); 
+}
+
+@font-face {
+	font-family: 'PPPangramSans-CompactThinItalic'; 
+	src: url(../font/PPPangramSans-CompactThinItalic.woff); 
+}
+
+@font-face {
+	font-family: 'PPPangramSans-CompressedExtrabold'; 
+	src: url(../font/PPPangramSans-CompressedExtrabold.woff); 
+}
+
+@font-face {
+	font-family: 'PPPangramSans-CompressedMediumReclined'; 
+	src: url(../font/PPPangramSans-CompressedMediumReclined.woff); 
+}
+
+@font-face {
+	font-family: 'PPPangramSans-CondensedThin'; 
+	src: url(../font/PPPangramSans-CondensedThin.woff); 
+}
+
+@font-face {
+	font-family: 'PPPangramSans-ExtraboldItalic'; 
+	src: url(../font/PPPangramSans-ExtraboldItalic.woff); 
+}
+
+@font-face {
+	font-family: 'PPPangramSans-Light'; 
+	src: url(../font/PPPangramSans-Light.woff); 
+}
+
+@font-face {
+	font-family: 'PPPangramSans-Medium'; 
+	src: url(../font/PPPangramSans-Medium.woff);
+}
+
+@font-face {
+	font-family: 'PPPangramSans-NarrowExtraboldItalic'; 
+	src: url(../font/PPPangramSans-NarrowExtraboldItalic.woff); 
+}
+
+@font-face {
+	font-family: 'PPPangramSans-NarrowExtralightReclined'; 
+	src: url(../font/PPPangramSans-NarrowExtralightReclined.woff); 
+}
+
+@font-face {
+	font-family: 'PPPangramSans-NarrowSemibold'; 
+	src: url(../font/PPPangramSans-NarrowSemibold.woff); 
+}
+
+@font-face {
+	font-family: 'PPPangramSans-NarrowSemiboldItalic'; 
+	src: url(../font/PPPangramSans-NarrowSemiboldItalic.woff); 
+}
+
+@font-face {
+	font-family: 'PPPangramSans-Semibold'; 
+	src: url(../font/PPPangramSans-Semibold.woff); 
+}
+
+@font-face {
+	font-family: 'PPPangramSans-SlimExtralight'; 
+	src: url(../font/PPPangramSans-SlimExtralight.woff); 
+}
+
+@font-face {
+	font-family: 'PPPangramSans-SlimMediumReclined'; 
+	src: url(../font/PPPangramSans-SlimMediumReclined.woff); 
+}
+
+@font-face {
+	font-family: 'PPPangramSans-SlimSemiboldItalic'; 
+	src: url(../font/PPPangramSans-SlimSemiboldItalic.woff); 
+}
+
+@font-face {
+	font-family: 'PPPangramSans-Thin'; 
+	src: url(../font/PPPangramSans-Thin.woff); 
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -43,6 +138,7 @@ button {
 
 .logo-item {
     color: #FFF;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
 }
 
@@ -58,6 +154,7 @@ button {
     font-size: 15px;
     font-weight: 500;
     color: #FFF;
+    font-family: 'PPPangramSans-Medium';
 }
 
 .contact {
@@ -86,6 +183,7 @@ button {
     color: #FFF;
     line-height: 20px;
     font-weight: bold;
+    font-family: 'Unbounded', sans-serif;
     margin-right: 30px;
     margin-left: 60px;
 }
@@ -97,6 +195,9 @@ button {
     width: 149px;
     height: 44px;
     color: #FFF;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: 'PPPangramSans-Bold';
     cursor: pointer;
 }
 
@@ -118,8 +219,9 @@ button {
     font-size: 89px;
     font-weight: bold;
     line-height: 95px;
-    text-align: center;
     color: #FFF;
+    font-family: 'Unbounded', sans-serif;
+    text-align: center;
     margin-top: 170px;
 }
 
@@ -128,6 +230,7 @@ button {
     font-weight: 500;
     line-height: 32px;
     color: #FFF;
+    font-family: 'PPPangramSans-Medium';
     text-align: center;
     margin-top: 40px;
     margin-bottom: 120px;
@@ -166,6 +269,7 @@ button {
     font-size: 10px;
     font-weight: 500;
     line-height: 10px;
+    font-family: 'Unbounded', sans-serif;
 }
 
 .text-listMain {
@@ -173,6 +277,7 @@ button {
     font-size: 17px;
     font-weight: 500;
     line-height: 26px;
+    font-family: 'PPPangramSans-Medium';
 }
 
 .aplication-main {
@@ -191,6 +296,7 @@ button {
     font-size: 22px;
     font-weight: bold;
     line-height: 29px;
+    font-family: 'Unbounded', sans-serif;
 }
 
 .submenu-aplication {
@@ -203,6 +309,7 @@ button {
     height: 76px;
     display: flex;
     justify-content: space-between;
+    font-family: 'PPPangramSans-Medium';
 }
 
 .date-input {
@@ -235,11 +342,13 @@ button {
 }
 
 .elemants-aplication {
+    margin: 0 45px;
+    width: 380px;
     display: grid;
     column-gap: 26px;
     row-gap: 14px;
     grid-template-columns: repeat(3, 1fr);
-    grid-column: repeat(2, 1fr);
+    // grid-column: repeat(2, 1fr);
 
     div {
         display: flex;
@@ -257,15 +366,18 @@ button {
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
+    font-family: 'PPPangramSans-Medium';
 }
 
 .btn-aplication {
     width: 201px;
     height: 76px;
+    padding: 28px 34px;
     font-size: 16px;
     font-weight: bold;
     line-height: 20px;
     color: #FFF;
+    font-family: 'PPPangramSans-Bold';
     border: none;
     border-radius: 10px;
     background: var(--main, linear-gradient(67deg, #9F7437 9.19%, #E3D293 92.03%));
@@ -276,7 +388,8 @@ button {
 
 
 .product-page {
-    margin: 120px 0;
+    margin-top: 255px;
+    margin-bottom: 120px;
 }
 
 .wrapper-product {
@@ -294,6 +407,7 @@ button {
         font-size: 48px;
         font-weight: bold;
         line-height: 62px;
+        font-family: 'Unbounded', sans-serif;
     }
 }
 
@@ -301,6 +415,7 @@ button {
     font-size: 13px;
     font-weight: bold;
     line-height: 20px;
+    font-family: 'PPPangramSans-Bold';
     width: 124px;
     height: 44px;
     border-radius: 8px;
@@ -1545,7 +1660,7 @@ button {
     }
 
     .elemants-aplication {
-        row-gap: 16px;
+        row-gap: 14px;
         grid-template-columns: repeat(2, 1fr);
         grid-column: repeat(3, 1fr);
     }
