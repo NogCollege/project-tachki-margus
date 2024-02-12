@@ -1,14 +1,5 @@
 <?php
 require_once "controllers/connect.php";
-?>
-
-<?php
-$host = 'localhost'; //имя хоста, на локальном компьютере это localhost
-$user = 'root'; //имя пользователя, по умолчанию это root
-$password = ''; //пароль, по умолчанию пустой
-$db_name = 'AutoPark'; //имя базы данных
-$link = mysqli_connect($host, $user, $password, $db_name);
-mysqli_query($link, "SET NAMES 'utf8'");
 
 $query = "SELECT * FROM catalog";
 $result = mysqli_query($link, $query) or die(mysqli_error($link));
@@ -65,7 +56,7 @@ $result = '';
                 $result .= '</div>';
                 $result .= '<div class="hr-itemProduct"></div>';
                 $result .= '<div class="sublock-itemProduct">';
-                $result .= '    <form action="#">';
+                $result .= '    <form action="reservation.php">';
                 $result .= '        <button class="btn-itemProduct">Забронировать</button>';
                 $result .= '    </form>';
                 $result .= '    <p class="price-itemProduct">от <span class="span-price">7150</span> руб/сут.</p>';
