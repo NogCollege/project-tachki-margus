@@ -42,7 +42,7 @@ $result = '';
             foreach ($data as $elem) {
                 $result .= '<div class="item-product">';
                 $result .= '<div class="city-itemProduct">'.$elem['city'].'</div>';
-                $result .= '<div class="image-itemProduct"><img src="templates/img/BMW-X2.png" alt=""></div>';
+                $result .= '<div class="image-itemProduct"><img src="templates/img/cars/' . $elem['id'] . '-' . $elem['name'] . '/main.jpg" alt=""></div>';
                 $result .= '<div class="title-itemProduct">'.$elem['full name'].'</div>';
                 $result .= '<div class="subtitle-itemProduct">';
                 $result .= '    <div class="consumption-itemProduct">';
@@ -54,7 +54,7 @@ $result = '';
                 $result .= '        <p class="text-power">'.$elem['engine power'].' л.с.</p>';
                 $result .= '    </div>';
                 $result .= '</div>';
-                $result .= '<div class="hr-itemProduct"></div>';
+                $result .= '<div class="hr-itemProduct display_block"></div>';
                 $result .= '<div class="sublock-itemProduct">';
                 $result .= '    <form action="reservation.php">';
                 $result .= '        <button class="btn-itemProduct">Забронировать</button>';

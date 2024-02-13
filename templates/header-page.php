@@ -2,7 +2,7 @@
         <div class="wrapper-header">
             <ul class="menu">
                 <li>
-                    <a href="#" class="logo-item">АРЕНДА<br class="display_none">ТАЧЕК.РФ</a>
+                    <a href="index.php" class="logo-item">АРЕНДА<br class="display_none">ТАЧЕК.РФ</a>
                 </li>
                 <li class="catalog">
                     <a href="#" class="menu-item">Подобрать авто</a>
