@@ -1,14 +1,15 @@
 <div class="advertising_instruction-page">
         <div class="wrapper-adv_instr">
             <div class="advertising-page">
-                <h1 class="title-adv">Аренда премиум автомобилей<br> для мероприятий</h1>
+                <h1 class="title-adv display_block">Аренда премиум автомобилей<br> для мероприятий</h1>
+                <h1 class="title-adv display_none">Премиум авто для<br> мероприятий</h1>
                 <div class="widget-adv">
                     <div class="adv-slide">
                         <img src="templates/img/wedding.png" alt="" class="img-slideAdv">
                         <div class="subblock-slideAdv">
                             <div>
                                 <h2 class="title-slideAdv">Аренда авто на свадьбу</h2>
-                                <p class="subtext-slideAdv">Предоставляем аренду премиальных<br> автомобилей для свадьбы с водителем</p>
+                                <p class="subtext-slideAdv">Предоставляем аренду премиальных<br class="display_block"> автомобилей для свадьбы с водителем</p>
                             </div>
                             <a href="#" class="arrow-linkAdv"><img src="templates/img/arrow-advSlide.png" alt="" class="img-arrowLink"></a>
                         </div>
