@@ -96,6 +96,10 @@ button {
   cursor: pointer;
 }
 
+.modal-show {
+  display: none;
+}
+
 .header-page {
   position: relative;
   background: #181818;
@@ -186,7 +190,7 @@ button {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  height: 100%;
+  height: auto;
   border-end-end-radius: 36px;
   background-image: url(../img/fon1.png);
   background-position: top;
@@ -365,6 +369,7 @@ button {
 .wrapper-product {
   width: 1320px;
   margin: 0 auto;
+  margin-top: 120px;
 }
 
 .title-product {
@@ -1103,7 +1108,7 @@ button {
 .rental_infomation-page {
   padding-top: 120px;
   padding-bottom: 120px;
-  height: 1460px;
+  height: auto;
   width: 100%;
   margin: 0 auto;
   background-image: url(../img/fon4.png);
@@ -1113,7 +1118,7 @@ button {
 
 .wrapper-rental_information {
   margin: 0 auto;
-  width: 55%;
+  width: 70%;
   height: auto;
   gap: 110px;
   display: flex;
@@ -1122,13 +1127,13 @@ button {
 
 .different_budget {
   display: flex;
-  justify-content: space-between;
+  gap: 112px;
 }
 
 .text-different_budget {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 50px;
 }
 
 .title-different_budget {
@@ -1470,11 +1475,16 @@ button {
 }
 
 .titleLink_menu {
+  text-transform: uppercase;
   color: white;
   font-size: 15px;
   font-family: "PPPangramSans-Bold";
   font-weight: bold;
   line-height: 20px;
+}
+
+.open-menu1:active, img:focus {
+  transform: rotate(180deg);
 }
 
 .link-menu_footer {
@@ -2046,12 +2056,14 @@ button {
     line-height: 20px;
   }
   .rental_in_Moscow {
+    width: auto;
     height: auto;
     display: flex;
     justify-content: space-between;
   }
   .text-rental_in_Moscow {
     margin: 0;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -2071,7 +2083,7 @@ button {
     justify-content: space-between;
     flex-direction: column;
     gap: 20px;
-    width: 748px;
+    width: auto;
   }
   .item-rental_in_Moscow {
     display: flex;
@@ -2168,144 +2180,94 @@ button {
     line-height: 18px;
   }
   .footer-page {
-    position: relative;
-    height: 534px;
-    margin: 0 auto;
+    height: auto;
     background-image: url(../img/fon5.png);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover;
   }
   .wrapper-footer {
-    position: relative;
-    padding: 100px 270px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    margin-left: auto;
+    padding: 0;
+    width: auto;
+    flex-direction: column;
+    align-items: baseline;
   }
   .link-footer {
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
+    width: 100%;
+    padding: 36px 20px 40px;
+    gap: 29px;
   }
   .titleLink-footer {
-    color: white;
-    font-size: 40px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
+    font-size: 28px;
+    line-height: auto;
   }
   .schedule_btn-footer {
-    display: flex;
-    align-items: center;
+    align-items: baseline;
+    flex-direction: column;
     gap: 30px;
   }
-  .schedule-footer {
-    display: grid;
-    gap: 10px;
-  }
-  .phone-footer {
-    font-size: 18px;
-    font-family: "PPPangramSans-Bold";
-    font-weight: bold;
-    line-height: 20px;
-    color: white;
-  }
-  .hoursWork-footer {
-    font-size: 12px;
-    font-family: "PPPangramSans-Medium";
-    font-weight: 500;
-    line-height: 12px;
-    color: #AFAFAF;
+  .schedule_btn-footer form {
+    width: 100%;
   }
   .btn-footer {
-    font-size: 13px;
-    font-family: "PPPangramSans-Bold";
-    font-weight: bold;
-    line-height: 20px;
-    background: none;
-    color: white;
-    border: 2px solid white;
-    border-radius: 8px;
-    padding: 12px 20px;
+    height: 56px;
+    width: 100%;
   }
   .adress_mail-footer {
     display: flex;
     flex-direction: column;
-    gap: 11px;
-    margin: 36px 0;
-    font-size: 15px;
-    font-family: "PPPangramSans-Medium";
-    font-weight: 500;
-    line-height: 22px;
-  }
-  .adress_mail-footer a {
-    color: #AFAFAF;
+    gap: 8px;
+    margin: 24px 0 30px;
   }
   .adress_mail-footer img {
     margin-right: 8px;
   }
-  .adress_mail-footer a:hover {
-    color: white;
-  }
   .adress-footer {
-    text-align: center;
+    text-align: start;
     width: 100%;
-    float: right;
+    float: none;
   }
   .mail-footer {
-    float: right;
+    float: none;
   }
   .iconsLink-footer {
-    width: 53px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    float: right;
+    width: 62px;
+    float: none;
   }
   .menu-footer {
-    width: 55%;
-    display: grid;
-    gap: 45px;
+    margin: 0;
+    width: 100%;
+    gap: 34px;
   }
   .section-footer {
-    display: flex;
-    justify-content: space-between;
-  }
-  .hr_menu-footer {
-    height: 1px;
-    width: 100%;
-    background: white;
-    opacity: 0.14;
+    flex-direction: column;
   }
   .block_menu-footer {
+    gap: 0;
+  }
+  .title_blockLink-menu {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 28px 25px 20px;
+    background: #141414;
+  }
+  .title_blockLink-menu form img {
+    margin-top: 5px;
   }
   .titleLink_menu {
-    color: white;
-    font-size: 15px;
-    font-family: "PPPangramSans-Bold";
-    font-weight: bold;
-    line-height: 20px;
+    font-size: 13px;
+  }
+  .links_menu-footer {
+    padding: 26px 0;
+    text-align: center;
   }
   .link-menu_footer {
-    font-size: 16px;
-    font-family: "PPPangramSans-Medium";
-    font-weight: 400;
-    line-height: 34px;
-  }
-  .link-menu_footer a {
-    color: #AFAFAF;
-  }
-  .link-menu_footer a:hover {
-    color: white;
+    line-height: 40px;
   }
   .comment-footer {
-    display: flex;
-    font-family: "PPPangramSans-Medium";
-    justify-content: space-between;
-    color: #7E7E7E;
+    padding: 0 20px 34px;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 13px;
+    line-height: 22px;
   }
 }/*# sourceMappingURL=style.css.map */
