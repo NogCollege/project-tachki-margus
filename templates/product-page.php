@@ -16,31 +16,31 @@ $result = '';
             </form>
         </div>
         <div class="category-product">
-            <div class="categoty-linkProduct active-linkProduct">
+            <button class="categoty-linkProduct" data-category="Внедорожник">
                 <img src="templates/img/item-category1.png" alt="">
                 <p>Внедорожники</p>
-            </div>
-            <div class="categoty-linkProduct">
+            </button>
+            <button class="categoty-linkProduct" data-category="Бизнес">
                 <img src="templates/img/item-category2.png" alt="">
                 <p>Бизнес</p>
-            </div>
-            <div class="categoty-linkProduct">
+            </button>
+            <button class="categoty-linkProduct" data-category="Спорт">
                 <img src="templates/img/item-category3.png" alt="">
                 <p>Спорткар</p>
-            </div>
-            <div class="categoty-linkProduct">
+            </button>
+            <button class="categoty-linkProduct" data-category="Премиум">
                 <img src="templates/img/item-category4.png" alt="">
                 <p>Премиум</p>
-            </div>
-            <div class="categoty-linkProduct">
+            </button>
+            <button class="categoty-linkProduct" data-category="Комфорт">
                 <img src="templates/img/item-category5.png" alt="">
                 <p>Комфорт</p>
-            </div>
+            </button>
         </div>
         <div class="items-product">
             <?php 
             foreach ($data as $elem) {
-                $result .= '<div class="item-product">';
+                $result .= '<div class="item-product ' . $elem['catagery'] . '">';
                 $result .= '<div class="city-itemProduct">'.$elem['city'].'</div>';
                 $result .= '<div class="image-itemProduct"><img src="templates/img/cars/' . $elem['id'] . '-' . $elem['name'] . '/main.jpg" alt=""></div>';
                 $result .= '<div class="title-itemProduct">'.$elem['full name'].'</div>';

@@ -96,10 +96,6 @@ button {
   cursor: pointer;
 }
 
-.modal-show {
-  display: none;
-}
-
 .header-page {
   position: relative;
   background: #181818;
@@ -411,6 +407,7 @@ button {
   align-items: center;
   padding: 12px 30px;
   height: 100%;
+  border: 0;
   border-radius: 10px;
   font-size: 14px;
   font-weight: bold;
@@ -423,14 +420,25 @@ button {
   margin-right: 20px;
 }
 
-.categoty-linkProduct:hover {
-  background: #EAEAEA;
-  color: black;
-}
-
-.active-linkProduct {
+.button-active {
   background: #1F1F1F;
   color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1254901961);
+}
+.button-active img {
+  filter: invert(100%);
+}
+.button-active:hover {
+  background: #565656;
+}
+.button-active:hover img {
+  filter: invert(0%);
+}
+
+.categoty-linkProduct:hover {
+  transition: 0.4s ease;
+  background: #EAEAEA;
+  color: black;
 }
 
 .items-product {
@@ -1483,7 +1491,17 @@ button {
   line-height: 20px;
 }
 
-.open-menu1:active, img:focus {
+.open-menu1,
+.open-menu2,
+.open-menu3 {
+  background: none;
+  border: none;
+}
+
+.open-menu1:focus,
+.open-menu2:focus,
+.open-menu3:focus,
+img:focus {
   transform: rotate(180deg);
 }
 
@@ -2257,10 +2275,15 @@ button {
     font-size: 13px;
   }
   .links_menu-footer {
+    height: auto;
     padding: 26px 0;
     text-align: center;
   }
+  .modal-show {
+    display: none;
+  }
   .link-menu_footer {
+    height: auto;
     line-height: 40px;
   }
   .comment-footer {
@@ -2270,4 +2293,53 @@ button {
     font-size: 13px;
     line-height: 22px;
   }
+}
+.slide {
+  display: none;
+  height: 90%;
+}
+
+.block {
+  display: block;
+}
+
+.prev-button,
+.next-button,
+.prev-buttons,
+.next-buttons {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next-button,
+.next-buttons {
+  right: 30%;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev-button:hover,
+.next-button:hover,
+.prev-buttons:hover,
+.next-buttons:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slider-container {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider {
+  position: relative;
+  transition: transform 0.5s ease-in-out;
 }/*# sourceMappingURL=style.css.map */

@@ -13,4 +13,6 @@ require_once "templates/rental_information-page.php";
 require_once "templates/footer-rental.php";
 require_once "templates/questions-page.php";
 require_once "templates/footer-page.php";
+
+require_once "controllers/javascript.php";
 ?>

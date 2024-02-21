@@ -27,9 +27,9 @@
                 <div class="block_menu-footer">
                     <div class="title_blockLink-menu">
                         <h2 class="titleLink_menu">Клиентам</h2>
-                        <a type="button" href="#" class="open-menu1">
+                        <button type="button" href="#" class="open-menu1 display_none">
                             <img id="loading" src="templates/img/bottom_switch.png" alt="">
-                        </a>
+                        </button>
                     </div>
                     <ul class="links_menu-footer menu-footer1 modal-show">
                         <li class="link-menu_footer"><a href="#">О нас</a></li>
@@ -42,9 +42,9 @@
                 <div class="block_menu-footer">
                     <div class="title_blockLink-menu">
                         <h2 class="titleLink_menu">Автопарк</h2>
-                        <a type="button" href="#" class="open-menu2">
+                        <button type="button" href="#" class="open-menu2 display_none">
                             <img src="templates/img/bottom_switch.png" alt="">
-                        </a>
+                        </button>
                     </div>
                     <ul class="links_menu-footer menu-footer2 modal-show">
                         <li class="link-menu_footer"><a href="#">Внедорожники</a></li>
@@ -57,9 +57,9 @@
                 <div class="block_menu-footer">
                     <div class="title_blockLink-menu">
                         <h2 class="titleLink_menu">Мероприятие</h2>
-                        <a type="button" href="#" class="open-menu3">
+                        <button type="button" href="#" class="open-menu3 display_none">
                             <img src="templates/img/bottom_switch.png" alt="">
-                        </a>
+                        </button>
                     </div>
                     <ul class="links_menu-footer menu-footer3 modal-show">
                         <li class="link-menu_footer"><a href="#">На свадьбу</a></li>
@@ -77,7 +77,3 @@
         </div>
     </div>
 </footer>
-
-<?php
-require_once "./controllers/javascript.php";
-?>
