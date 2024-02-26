@@ -56,7 +56,7 @@ $result = '';
                 $result .= '</div>';
                 $result .= '<div class="hr-itemProduct display_block"></div>';
                 $result .= '<div class="sublock-itemProduct">';
-                $result .= '    <form action="reservation.php">';
+                $result .= '    <form action="reservation.php?id=' .$elem['id'] . '">';
                 $result .= '        <button class="btn-itemProduct">Забронировать</button>';
                 $result .= '    </form>';
                 $result .= '    <p class="price-itemProduct">от <span class="span-price">7150</span> руб/сут.</p>';
