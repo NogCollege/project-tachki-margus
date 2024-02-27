@@ -26,7 +26,7 @@
                 <li class="item-link">
                     <div class="item-linkformMini">
                         <a href="#"><img class="itemLink-img" src="templates/img/avto-item.png" alt=""><img class="display_none" src="templates/img/avto-itemMini.png" alt=""></a>
-                        <a href="#"><img class="itemLink-img" src="templates/img/contact-item.png" alt=""><img class="display_none" src="templates/img/contact-itemMIni.png" alt=""></a>
+                        <a href="./admin.php"><img class="itemLink-img" src="templates/img/contact-item.png" alt=""><img class="display_none" src="templates/img/contact-itemMIni.png" alt=""></a>
                     </div>
                     <a class="display_none icon-menu" href="#"><img src="templates/img/icon-menu.png" alt=""></a>
                 </li>
