@@ -2698,3 +2698,47 @@ img:focus {
 .info_tableButton {
     width: 80px;
 }
+
+
+.pictures {
+    display: grid;
+    gap: 15px;
+    grid-template-rows: repeat(auto, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 40px;
+}
+
+.picture_block {
+    text-align: center;
+
+     form {
+        font-family: 'PPPangramSans-Semibold';
+        font-size: 18px;
+        color: black;
+     }
+
+    button {
+        height: 25px;
+        width: 60px;
+        border-radius: 10px;
+        border: 1px solid gray;
+     }
+
+     button:hover {
+        background: red;
+        color: white;
+        transition: .5s;
+     }
+}
+
+.picturefade {
+    margin: 0 auto;
+    width: auto;
+    height: 233px;
+}
+
+.input_multiple {
+    display: grid;
+    gap: 20px;
+    margin-left: 10px;
+}

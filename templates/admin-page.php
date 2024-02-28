@@ -35,7 +35,7 @@
         $result .= '<td class="info_tableAdmin">' . $elem['average_price'] . '</td>';
         $result .= '<td class="info_tableAdmin">' . $elem['minimum_price'] . '</td>';
         $result .= '<td class="info_tableFull">' . $elem['full_description'] . '</td>';
-        $result .= '<td><a href="reservation.php?id=' . $elem['id'] . '">Фотографии</a></td>';
+        $result .= '<td><a href="picture.php?id=' . $elem['id'] . '">Фотографии</a></td>';
         $result .= '<td><a href="?del=' . $elem['id'] . '">Удалить</td>';
         $result .= '</tr>';
     }

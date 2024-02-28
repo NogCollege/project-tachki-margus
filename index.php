@@ -1,5 +1,4 @@
 <?php
-require_once "controllers/functions.php";
 require_once "controllers/head.php";
 
 require_once "templates/header-page.php";

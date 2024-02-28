@@ -3,7 +3,8 @@ require_once "controllers/connect.php";
 
 $query = "SELECT * FROM catalog";
 $result = mysqli_query($link, $query) or die(mysqli_error($link));
-for ($data = []; $row = mysqli_fetch_assoc($result); $data[] = $row);
+for ($data = []; $row = mysqli_fetch_assoc($result); $data[] = $row)
+    ;
 $result = '';
 ?>
 
@@ -38,25 +39,25 @@ $result = '';
             </button>
         </div>
         <div class="items-product">
-            <?php 
+            <?php
             foreach ($data as $elem) {
                 $result .= '<div class="item-product ' . $elem['catagery'] . '">';
-                $result .= '<div class="city-itemProduct">'.$elem['city'].'</div>';
+                $result .= '<div class="city-itemProduct">' . $elem['city'] . '</div>';
                 $result .= '<div class="image-itemProduct"><img src="templates/img/cars/' . $elem['id'] . '-' . $elem['name'] . '/main.jpg" alt=""></div>';
-                $result .= '<div class="title-itemProduct">'.$elem['full_name'].'</div>';
+                $result .= '<div class="title-itemProduct">' . $elem['full_name'] . '</div>';
                 $result .= '<div class="subtitle-itemProduct">';
                 $result .= '    <div class="consumption-itemProduct">';
                 $result .= '        <img src="templates/img/consumption.png" alt="" class="icon-consumption">';
-                $result .= '        <p class="text-consumption">'.$elem['engine_capacity'].' л/бензин</p>';
+                $result .= '        <p class="text-consumption">' . $elem['engine_capacity'] . ' л/бензин</p>';
                 $result .= '    </div>';
                 $result .= '    <div class="power-itemProduct">';
                 $result .= '        <img src="templates/img/power.png" alt="" class="icon-power">';
-                $result .= '        <p class="text-power">'.$elem['engine_power'].' л.с.</p>';
+                $result .= '        <p class="text-power">' . $elem['engine_power'] . ' л.с.</p>';
                 $result .= '    </div>';
                 $result .= '</div>';
                 $result .= '<div class="hr-itemProduct display_block"></div>';
                 $result .= '<div class="sublock-itemProduct">';
-                $result .= '        <a href="reservation.php?id=' .$elem['id'] . '" class="btn-itemProduct">Забронировать</a>';
+                $result .= '        <a href="reservation.php?id=' . $elem['id'] . '" class="btn-itemProduct">Забронировать</a>';
                 $result .= '    <p class="price-itemProduct">от <span class="span-price">7150</span> руб/сут.</p>';
                 $result .= '</div>';
                 $result .= '</div>';
@@ -77,3 +78,50 @@ $result = '';
         </div>
     </div>
 </div>
+<script>
+    let buttons = document.querySelectorAll('.categoty-linkProduct');
+
+    let category = new Map([
+        ['Внедорожник', document.querySelectorAll('.Внедорожник')],
+        ['Бизнес', document.querySelectorAll('.Бизнес')],
+        ['Спорт', document.querySelectorAll('.Спорт')],
+        ['Премиум', document.querySelectorAll('.Премиум')],
+        ['Комфорт', document.querySelectorAll('.Комфорт')]
+    ]);
+
+    let allCards = document.querySelectorAll('.item-product');
+
+    function DisplayCards(cat) {
+        allCards.forEach((card) => {
+            card.style.display = 'none'
+        });
+        category.get(cat).forEach((card) => {
+            card.style.display = 'block'
+        });
+    };
+
+    for (let button of buttons) {
+        button.addEventListener("click", function () {
+            if (!button.classList.contains("button-active")) {
+                console.log("Нажатие на неактивную кнопку");
+                buttons.forEach((button) => {
+                    button.classList.remove("button-active") // убираем класс у всех кнопок
+                    this.classList.add("button-active") // добавляем класс к нажатой кнопке
+                });
+                DisplayCards(this.dataset.category);
+            } else {
+                console.log("Нажатие на активную кнопку");
+            }
+        });
+    };
+
+    document.querySelector('.btn-product').addEventListener('click', function (evt) {
+        evt.preventDefault();
+        allCards.forEach((card) => {
+            card.style.display = 'block';
+        });
+        buttons.forEach((button) => {
+            button.classList.remove("button-active")
+        });
+    });
+</script>

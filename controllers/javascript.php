@@ -1,42 +1,36 @@
 <script>
   var openLogin1 = document.querySelector('.open-menu1');
-  var popupLog1 = document.querySelector('.menu-footer1')
+  var popupLog1 = document.querySelector('.menu-footer1');
   var openLogin2 = document.querySelector('.open-menu2');
-  var popupLog2 = document.querySelector('.menu-footer2')
+  var popupLog2 = document.querySelector('.menu-footer2');
   var openLogin3 = document.querySelector('.open-menu3');
-  var popupLog3 = document.querySelector('.menu-footer3')
+  var popupLog3 = document.querySelector('.menu-footer3');
 
   try {
     openLogin1.addEventListener('click', () => {
-      // evt.preventDefault();
       console.log("Открыт!");
       popupLog1.classList.toggle("modal-show");
     });
   } catch (error) {
-    console.log("error"); // выведет о чем ошибка
-    //Но, можно ничего не писать вообще в блоке catch
+    console.log("error");
   };
 
   try {
     openLogin2.addEventListener('click', () => {
-      // evt.preventDefault();
       console.log("Открыт!");
       popupLog2.classList.toggle("modal-show");
     });
   } catch (error) {
-    console.log(error); // выведет о чем ошибка
-    //Но, можно ничего не писать вообще в блоке catch
+    console.log(error);
   };
 
   try {
     openLogin3.addEventListener('click', () => {
-      // evt.preventDefault();
       console.log("Открыт!");
       popupLog3.classList.toggle("modal-show");
     });
   } catch (error) {
-    console.log(error); // выведет о чем ошибка
-    //Но, можно ничего не писать вообще в блоке catch
+    console.log(error);
   };
 
 
@@ -67,13 +61,13 @@
       if (!button.classList.contains("button-active")) {
         console.log("Нажатие на неактивную кнопку");
         buttons.forEach((button) => {
-          button.classList.remove("button-active") // убираем класс у всех кнопок
-          this.classList.add("button-active") // добавляем класс к нажатой кнопке
+          button.classList.remove("button-active")
+          this.classList.add("button-active")
         });
         DisplayCards(this.dataset.category);
       } else {
         console.log("Нажатие на активную кнопку");
-      }
+      };
     });
   };
 
@@ -86,8 +80,4 @@
       button.classList.remove("button-active")
     });
   });
-
-
-
-
 </script>
